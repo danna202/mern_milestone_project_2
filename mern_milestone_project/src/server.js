@@ -18,7 +18,7 @@ app.use(express.static('public'))
 
 // ROUTES
 app.get('/', (req, res) => {
-    res.send('TEST SETUP FBI WANTED API APP')
+  app.use('./views/root.js')
 })
 
 // 404 Page remember! no routes under this
