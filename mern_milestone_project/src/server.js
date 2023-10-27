@@ -1,7 +1,7 @@
 // DEPENDENCIES 
 const express = require('express')
 const app = express()
-const methodOverride = require('method-override')
+
 
 // CONFIGURATION
 require('dotenv').config()
@@ -15,16 +15,6 @@ console.log(PORT)
 app.use(express.static('public'))
 // app.use(express.urlencoded({extended: true}))
 // app.use(methodOverride('_method'))
-
-// ROUTES
-app.get('/', (req, res) => {
-  app.use('./views/root.js')
-})
-
-// 404 Page remember! no routes under this
-app.get('*', (req, res) => {
-  res.render('404')
-})
 
 // LISTEN
 app.listen(PORT, () => {
