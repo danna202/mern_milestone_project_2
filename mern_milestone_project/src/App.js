@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react'
 import fetch from 'node-fetch';
-import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import WantedCard from './components/WantedCard';
+import SearchBar from './components/SearchBar'
 
 
 function App () {
@@ -22,8 +23,10 @@ return(
     { wanted.length >= 1 ?     
         wanted.map((criminal) => {
                 return (
+                  <fragment>
+                  <SearchBar/>
                   <WantedCard name={criminal.title} />
-
+                  </fragment>
           )
         })
       
