@@ -35,7 +35,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-=======
+
   "name": "milestone_project_two",
   "version": "1.0.0",
   "description": "",
@@ -48,6 +48,6 @@
   "license": "ISC",
   "dependencies": {
     "nodes": "^0.1.0"
->>>>>>> 9f0b4ce227a3a41eb6a3f27dfbd1897e682f8f5c
+
   }
 }
