@@ -16,6 +16,9 @@ function UserInfo({ user }) {
       <div>
         <p>Location:</p> {user.location}
       </div>
+      <div>
+        <h2>Saved Criminals</h2>
+      </div>
     
     </div>
   );
