@@ -4,10 +4,24 @@ function SignIn() {
   const [userName, setUserName] = useState('');
   const [password, setPassword] = useState('');
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-
+  const handleSignIn = () => {
+    // needs more info for how we are doing auth... benjamin i think you had some code for here?
+    // if not we can workshop sunday
+    if (userName === 'usernamefictional' && password === 'password') {
+      setIsAuthenticated(true);
+    } else {
+      alert('Sign-in failed. Please check your email and password.');
+    }
+  };
+  
   return (
     <div className="sign-in">
       <h2>Sign In</h2>
+      {isAuthenticated ? (
+    <div>
+      <p>You are signed in!</p>
+    </div>
+    ) : (
         <form>
           <div>
             <label>Username:</label>
@@ -29,6 +43,7 @@ function SignIn() {
             Sign In
           </button>
         </form>
+        )}
     </div>
   );
 }
