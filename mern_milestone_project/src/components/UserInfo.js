@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ProfileInfo({ user }) {
+function UserInfo({ user }) {
   return (
     <div className="profile">
       <h2>User Profile Information</h2>
@@ -21,4 +21,4 @@ function ProfileInfo({ user }) {
   );
 }
 
-export default ProfileInfo;
+export default UserInfo;
