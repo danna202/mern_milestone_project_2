@@ -1,6 +1,9 @@
 *# mern_milestone_project_2*
 
+#Milestone Project 2 for NCSU Software Development#
+
 **##Deployment**
+
 https://vercel.com/danna202/mern-milestone-project-2
 Vercel was the choice to deploy this project
 
