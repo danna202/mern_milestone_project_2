@@ -9,7 +9,7 @@ ___
 **Deployment:**
 https://vercel.com/danna202/mern-milestone-project-2
 
-Vercel was the choice to deploy this project
+Vercel was the deployment platform used for this project
 ___
 
 This project will allow users to utilize the FBI MOST WANTED list to look up cyber criminals, white-collar criminals, and criminals with rewards for capture.
