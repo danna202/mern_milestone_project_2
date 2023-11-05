@@ -18,7 +18,10 @@ This project will allow users to utilize the FBI MOST WANTED list to look up cyb
 ___
 
 Sample Page:
-![fbi search page](https://github.com/danna202/mern_milestone_project_2/assets/105758399/3abbd4fd-4526-4100-b582-5379f52b6338)
+
+![fbi search page short](https://github.com/danna202/mern_milestone_project_2/assets/105758399/5130b850-dcbd-49bc-8df8-8a728417615a)
+
+___
 
 
 
