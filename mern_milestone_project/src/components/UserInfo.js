@@ -1,4 +1,5 @@
 import React from 'react';
+import Logout from './Logout';
 
 function UserInfo({ user }) {
   return (
@@ -19,9 +20,9 @@ function UserInfo({ user }) {
       <div>
         <h2>Saved Criminals</h2>
       </div>
-    
+      <Logout/>
     </div>
-  );
+     );
 }
 
 export default UserInfo;

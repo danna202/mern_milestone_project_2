@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import { Link } from 'react-router-dom'
 
 
@@ -7,13 +7,23 @@ function WantedCard (props) {
     
     const regularView = () => {
         return (
+            <Fragment>
             <div> Name: {props.name} </div>
+            <div> Picture: {props.img}</div>
+            <div> Reward: {props.reward}</div>
+            </Fragment>
         )
     }
     const expandedView = () => {
         return (
-                // <div>{props.name}</div>
-                <div><p>gone</p></div>
+            <Fragment>
+            <div> Name: {props.name} </div>
+            <div> Description: {props.description} </div>
+            <div> Warning: {props.warning}</div>
+            <div> Link: {props.url}</div>
+            <div> Picture: {props.img}</div>
+            <div> Reward: {props.reward}</div>
+            </Fragment>
              
         )
     }
@@ -27,12 +37,3 @@ function WantedCard (props) {
 
 export default WantedCard;
 
-
-
-
-
-// const {name} = props
-    
-// return (
-//     <div> Name: {name} </div>
-// )

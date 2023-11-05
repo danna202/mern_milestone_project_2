@@ -22,7 +22,7 @@ function Gallery() {
         wanted.map((criminal) => {
                 return (
                   <React.Fragment key={criminal.title}>
-                  <WantedCard name={criminal.title} />
+                  <WantedCard name={criminal.title} description={criminal.description} warning={criminal.warning_message} url = {criminal.url} img = {criminal.images.original} reward = {criminal.reward_text}/>
                   </React.Fragment>
           )
         })
