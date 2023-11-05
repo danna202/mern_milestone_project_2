@@ -1,18 +1,21 @@
 import React, { useState } from 'react';
+import { redirect } from 'react-router-dom';
 
 function SignIn() {
   const [userName, setUserName] = useState('');
   const [password, setPassword] = useState('');
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+
   const handleSignIn = () => {
     // needs more info for how we are doing auth... benjamin i think you had some code for here?
     // if not we can workshop sunday
     if (userName === 'usernamefictional' && password === 'password') {
-      setIsAuthenticated(true);
-    } else {
-      alert('Sign-in failed. Please check your email and password.');
-    }
-  };
+  
+   redirect('/userinfo');
+} else {
+  alert('Sign-in failed. Please check your username and password.');
+}
+};
   
   return (
     <div className="sign-in">

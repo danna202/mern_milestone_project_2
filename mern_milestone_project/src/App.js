@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import SearchBar from './components/SearchBar';
 import Gallery from './components/Gallery';
 import UserInfo from './components/UserInfo'
-
+import SignIn from './components/SignIn';
 
 function App() {
 
@@ -21,6 +21,7 @@ function App() {
     <Router>
     
       <Routes>
+        <Route path="/" element={<SignIn />} />
         <Route path="/profile" element={<UserInfo user={user}/>} />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
