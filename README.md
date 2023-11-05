@@ -14,7 +14,9 @@ A project created by Hannah Mills, Benjamin Chandler, and Danna Bohnhoff.
 This project will allow users to utilize the FBI MOST WANTED list to look up cyber criminals, white-collar criminals, and criminals with rewards for capture.
 
 "fetch" was utilized in making asynchronous network requests to retrieve data from a server or API. It is a fundamental part of building web applications that need to interact with remote resources, such as fetching data from a REST API or sending data to a server.
-
+-Hannah Mills:  Created sign-in page, all components for search 
+-Benjamin Chandler: Created sign-up page
+-Danna Bohnhoff:  Created github repository, README.md file, maintained pull requests, and deployed site via Vercel.
 ___
 
 Sample Page:
